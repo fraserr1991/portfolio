@@ -4,11 +4,12 @@ import styled from 'styled-components'
 import './NavBar.css'
 
 const NavBarBox = styled.div`
-    font-size: 3em;
+    font-size: 2em;
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
+    font-family: "Agustina Regular";
 `
 
 const Logo = styled.img`
