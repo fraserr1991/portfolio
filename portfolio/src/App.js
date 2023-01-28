@@ -10,13 +10,16 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <header><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"></link></header>
       <Router>
+        <header><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"></link>
         <NavBar/>
-        <AboutMe/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+        </header>
+          <AboutMe/>
+          <Skills/>
+          <Projects/>
+        <footer>
+          <Contact/>
+        </footer>
       </Router>
     </div>
   );

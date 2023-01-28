@@ -1,4 +1,7 @@
-.devicon-javascript-plain {
+i {
+  max-width: 4em;
+  font-size: 12em;
+}/* .devicon-javascript-plain {
     max-width: 4em;
     font-size: 7em;
   }
@@ -26,4 +29,4 @@
 .devicon-postgresql-plain-wordmark {
     max-width: 4em;
     font-size: 7em;
-  }
+  } */

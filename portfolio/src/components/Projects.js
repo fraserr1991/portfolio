@@ -1,10 +1,16 @@
 import React from 'react'
 import './Projects.css'
+import styled from 'styled-components'
+
+const Title = styled.h1`
+    font-size: 3em;
+    text-align: center;
+`
 
 const Projects = () => {
     return(
     <div id="Projects">
-    <h1>I've covered: </h1>
+    <Title>I've covered: </Title>
         <i class="devicon-javascript-plain colored"></i>
         <i class="devicon-python-plain-wordmark colored"></i>
         <i class="devicon-css3-plain-wordmark colored"></i>

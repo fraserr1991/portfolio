@@ -2,9 +2,11 @@ import React from 'react'
 
 const Contact = () => {
     return(
-    <footer className="Contact" id="Contact">
-    "Thisis the Contact page"
-    </footer>
+    <div className="Contact" id="Contact">
+    <p>Contact me</p>
+    <p>Email: </p>
+    <p>Linkedin: </p>
+    </div>
     )
 }
 
