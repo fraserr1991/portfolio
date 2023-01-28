@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {Fade} from 'react-reveal'
 
 const SkillsBox = styled.div`
-    height: 45em;
+    height: 90em;
 `
 
 const Title = styled.h1`
@@ -12,8 +12,31 @@ const Title = styled.h1`
     text-align: center;
 `
 
+const SubTitle = styled.h3`
+    font-size: 2em;
+    text-align: center;
+`
+
 const Paragraph = styled.p`
     font-size: 2em;
+`
+
+const IconContainerForLanguages =styled.div`
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    gap: 50px;
+
+`
+
+const IconContainForFrameworks =styled.div`
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    gap: 50px;
+
 `
 
 const Skills = () => {
@@ -23,15 +46,26 @@ const Skills = () => {
         <Title>I've covered: </Title>
         </Fade>
         <Fade right>
-            <div>
+            <SubTitle>Programming languages</SubTitle>
+            <IconContainerForLanguages>
             <i class="devicon-javascript-plain colored"></i>
             <i class="devicon-python-plain-wordmark colored"></i>
             <i class="devicon-css3-plain-wordmark colored"></i>
             <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-mysql-plain-wordmark colored"></i>
             <i class="devicon-postgresql-plain-wordmark colored"></i> 
-            <Paragraph>On a journey to become a full-stack developer</Paragraph> 
-            </div>    
+            <i class="devicon-react-original-wordmark colored"></i>
+            </IconContainerForLanguages> 
+            <SubTitle>Frameworks, and tools</SubTitle>
+            <IconContainForFrameworks>
+            <i class="devicon-npm-original-wordmark"></i>
+            <i class="devicon-flask-original-wordmark colored"></i>
+            <figure>
+            <i class="devicon-nodejs-plain colored"></i>
+            <figcaption>NodeJS</figcaption>
+            </figure>
+            </IconContainForFrameworks>
+              
+            <Paragraph>On a journey to become a full-stack developer</Paragraph>  
         </Fade>
         </SkillsBox>
         )
