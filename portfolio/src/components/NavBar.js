@@ -20,10 +20,10 @@ const NavBar = () => {
     return(
     <NavBarBox id="NavBar">
         <Logo src="https://cdn.vectorstock.com/i/preview-1x/47/71/medal-for-win-blank-template-round-monochrome-logo-vector-22634771.jpg" alt="Logo"></Logo>
-        <HashLink to="#AboutMe" class="hash-link">About me</HashLink>
-        <HashLink to="#Skills" class="hash-link">Skills</HashLink>
-        <HashLink to="#Projects" class="hash-link">Projects</HashLink>
-        <HashLink to="#Contact" class="hash-link">Contact</HashLink>
+        <HashLink smooth to="#AboutMe" class="hash-link">About me</HashLink>
+        <HashLink smooth to="#Skills" class="hash-link">Skills</HashLink>
+        <HashLink smooth to="#Projects" class="hash-link">Projects</HashLink>
+        <HashLink smooth to="#Contact" class="hash-link">Contact</HashLink>
     </NavBarBox>
     )
 }

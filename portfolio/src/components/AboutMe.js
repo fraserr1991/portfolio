@@ -5,6 +5,7 @@ import {Fade} from 'react-reveal'
 
 const AboutMeBox = styled.section`
     width: 40%;
+    height: 50em;
 `
 const Title = styled.h1`
     font-size: 5em;
